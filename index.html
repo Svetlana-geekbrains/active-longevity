@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Активное Долголетие (WEB)</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <ul class="header-info">
+                <li class="header-info__feedback"><a href="#">Обратная связь</a></li>
+                <li class="header-info__location"><a href="#">Москва</a></li>
+            </ul>
+            
+            <hr>
+
+            <nav class="header-nav">
+                <a href="#"><img src="img/logo.png" alt="logo" class="header-nav__logo"></a>
+
+                <ul class="header-nav__menu">
+                    <li><a href="#">Активности</a></li>
+                    <li><a href="#">Экскурсии</a></li>
+                    <li><a href="#">Долголетие-онлайн</a></li>
+                    <li><a href="#">Социальные услуги</a></li>
+                </ul>
+
+                <form class="header-nav__search form-search">
+                    <input type="text" placeholder="Поиск по порталу">
+                    <button type="submit"></button>
+                </form>
+
+                <div class="header-nav__user">
+                    <img src="img/user-photo.png" alt="user photo">
+                    <p class="header-nav__username">Имя Фамилия</p>
+                </div>
+            </nav>
+        </div>
+        
+    </header>
+    <main>
+        <section class="lessons container">
+            <h2 class="lessons__title section-title">Ближайшие занятия в Домодедово</h2>
+            <div class="lessons__slider">
+                <button class="lessons__slider__left-arrow"><img src="img/left-arrow.png" alt="Кнопка «Левая стрелка слайдера»"></button>
+
+                <div class="lessons__slider__list">
+                    <div class="lessons__slider__item item-big">
+                        <img src="img/sing.png" alt="" class="lessons__slider__img">
+
+                        <p class="start">Скоро начнется</p>
+
+                        <div class="info">
+                            <h3 class="info__title">Пение</h3>
+                            <p class="info__time">Начнется через: 1 час 15 минут</p>
+                        </div>
+
+                        <button class="more-btn">Перейти</button>
+                    </div>
+                    
+
+                    <div class="lessons__slider__item">
+                        <img src="img/foreing-lang.png" alt="" class="lessons__slider__img">
+
+                        <p class="start">Скоро начнется</p>
+
+                        <div class="info">
+                            <h3 class="info__title">Иностранные</h3>
+                            <p class="info__time">Начнется через: 2 часа</p>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <button class="lessons__slider__right-arrow"><img src="img/right-arrow.png" alt="Кнопка «Правая стрелка слайдера»"></button>
+
+                <div class="lessons__slider__dots">
+                    <input type="radio" id="rad1" name="dots" checked>
+	                <label for="rad1"></label>
+	                <input type="radio" id="rad2" name="dots" >
+	                <label for="rad2"></label>
+	                <input type="radio" id="rad3" name="dots">
+	                <label for="rad3"></label>
+                    <input type="radio" id="rad4" name="dots">
+	                <label for="rad4"></label>
+                </div>
+            </div>
+        </section>
+        <section class="categories container">
+            <h2 class="categories__title section-title">Все категории</h2>
+            <div class="categories__content">
+                <div class="categories__card">
+                    <img src="img/all_category/1.svg" alt="card icon" class="categories__card__icon">
+                    <p class="categories__card__name">Творчество</p>
+                </div>
+                <div class="categories__card">
+                    <img src="img/all_category/2.svg" alt="card icon" class="categories__card__icon">
+                    <p class="categories__card__name">Физическая культура</p>
+                </div>
+                <div class="categories__card">
+                    <img src="img/all_category/3.svg" alt="card icon" class="categories__card__icon">
+                    <p class="categories__card__name">Пение</p>
+                </div>
+                <div class="categories__card">
+                    <img src="img/all_category/4.svg" alt="card icon" class="categories__card__icon high-icon">
+                    <p class="categories__card__name">Скандинавская ходьба</p>
+                </div>
+                <div class="categories__card">
+                    <img src="img/all_category/5.svg" alt="card icon" class="categories__card__icon wide-icon">
+                    <p class="categories__card__name">Посещение бассейна</p>
+                </div>
+                <div class="categories__card">
+                    <img src="img/all_category/6.svg" alt="card icon" class="categories__card__icon wide-icon">
+                    <p class="categories__card__name">Компьютерная грамотность</p>
+                </div>
+                <div class="categories__card">
+                    <img src="img/all_category/7.svg" alt="card icon" class="categories__card__icon high-icon">
+                    <p class="categories__card__name">Танцы</p>
+                </div>
+                <div class="categories__card">
+                    <img src="img/all_category/8.png" alt="card icon" class="categories__card__icon">
+                    <p class="categories__card__name">Дыхательная гимнастика</p>
+                </div>
+                <div class="categories__card">
+                    <img src="img/all_category/9.svg" alt="card icon" class="categories__card__icon">
+                    <p class="categories__card__name">Йога</p>
+                </div>
+                <div class="categories__card">
+                    <img src="img/all_category/10.png" alt="card icon" class="categories__card__icon">
+                    <p class="categories__card__name">Посещение экскурский</p>
+                </div>
+                <div class="categories__card">
+                    <img src="img/all_category/11.svg" alt="card icon" class="categories__card__icon wide-icon">
+                    <p class="categories__card__name">Настольные игры</p>
+                </div>
+                <div class="categories__card">
+                    <img src="img/all_category/12.svg" alt="card icon" class="categories__card__icon high-icon">
+                    <p class="categories__card__name">История<br>и искусство</p>
+                </div>
+                <div class="categories__card">
+                    <img src="img/all_category/13.svg" alt="card icon" class="categories__card__icon">
+                    <p class="categories__card__name">Красота<br>и здоровье</p>
+                </div>
+                <div class="categories__card">
+                    <img src="img/all_category/14.svg" alt="card icon" class="categories__card__icon wide-icon">
+                    <p class="categories__card__name">Литературное мастерство</p>
+                </div>
+                <div class="categories__card">
+                    <img src="img/all_category/15.png" alt="card icon" class="categories__card__icon high-icon">
+                    <p class="categories__card__name">Музыка</p>
+                </div>
+                <div class="categories__card">
+                    <img src="img/all_category/16.png" alt="card icon" class="categories__card__icon">
+                    <p class="categories__card__name">Театральная мастерская</p>
+                </div>
+                <div class="categories__card">
+                    <img src="img/all_category/17.svg" alt="card icon" class="categories__card__icon">
+                    <p class="categories__card__name">Иностранные языки</p>
+                </div>
+                <div class="categories__card">
+                    <img src="img/all_category/18.svg" alt="card icon" class="categories__card__icon">
+                    <p class="categories__card__name">Фото и видео</p>
+                </div>
+            </div>
+        </section>
+        <section class="about container">
+            <img src="img/about-bg.png" alt="" class="about__background">
+            <div class="about__content">
+                <h2 class="about__title section-title">Что такое долголетие-онлайн?</h2>
+                <p class="about__text">Долголетие-онлайн — это ваш способ заниматься интересными активностями не выходя из дома и учиться чему-то новому</p>
+                <p class="about__text">Просто выберите понравившееся вам занятие и смотрите готовую запись или прямую трансляцию</p>
+                <p class="about__text">У нас много разных занятий, каждый найдет то,<br>что ему по душе</p>
+            </div>
+        </section>
+        <section class="online-lessons container">
+            <h2 class="online-lessons__title section-title">Онлайн занятия в Домодедово</h2>
+            <div class="online-lessons__content">
+                <div class="online-lessons__card-list">
+                    <div class="online-lessons__card-item">
+                        <img src="img/online-1.png" alt="" class="online-lessons__card-img">
+                        <div class="online-lessons__card-info">
+                            <h3 class="online-lessons__card-title">Название в одну строку</h3>
+                            <p class="online-lessons__card-type">Йога</p>
+                            <hr>
+                            <ul class="online-lessons__card-date-time">
+                                <li class="online-lessons__card-date">Вторник, 22.01.2021</li>
+                                <li class="online-lessons__card-time">14:00-16:00</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="online-lessons__card-item">
+                        <img src="img/online-2.png" alt="" class="online-lessons__card-img">
+                        <div class="online-lessons__card-info">
+                            <h3 class="online-lessons__card-title">Длинное название занятия в две строки</h3>
+                            <p class="online-lessons__card-type">Йога</p>
+                            <hr>
+                            <ul class="online-lessons__card-date-time">
+                                <li class="online-lessons__card-date">Вторник, 22.01.2021</li>
+                                <li class="online-lessons__card-time">14:00-16:00</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="online-lessons__card-item">
+                        <img src="img/online-3.png" alt="" class="online-lessons__card-img">
+                        <div class="online-lessons__card-info">
+                            <h3 class="online-lessons__card-title">Название в одну строку</h3>
+                            <p class="online-lessons__card-type">Йога</p>
+                            <hr>
+                            <ul class="online-lessons__card-date-time">
+                                <li class="online-lessons__card-date">Вторник, 22.01.2021</li>
+                                <li class="online-lessons__card-time">14:00-16:00</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="online-lessons__card-item">
+                        <img src="img/online-3.png" alt="" class="online-lessons__card-img">
+                        <div class="online-lessons__card-info">
+                            <h3 class="online-lessons__card-title">Название в одну строку</h3>
+                            <p class="online-lessons__card-type">Йога</p>
+                            <hr>
+                            <ul class="online-lessons__card-date-time">
+                                <li class="online-lessons__card-date">Вторник, 22.01.2021</li>
+                                <li class="online-lessons__card-time">14:00-16:00</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="online-lessons__card-item">
+                        <img src="img/online-1.png" alt="" class="online-lessons__card-img">
+                        <div class="online-lessons__card-info">
+                            <h3 class="online-lessons__card-title">Название в одну строку</h3>
+                            <p class="online-lessons__card-type">Йога</p>
+                            <hr>
+                            <ul class="online-lessons__card-date-time">
+                                <li class="online-lessons__card-date">Вторник, 22.01.2021</li>
+                                <li class="online-lessons__card-time">14:00-16:00</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="online-lessons__card-item">
+                        <img src="img/online-2.png" alt="" class="online-lessons__card-img">
+                        <div class="online-lessons__card-info">
+                            <h3 class="online-lessons__card-title">Длинное название занятия в две строки</h3>
+                            <p class="online-lessons__card-type">Йога</p>
+                            <hr>
+                            <ul class="online-lessons__card-date-time">
+                                <li class="online-lessons__card-date">Вторник, 22.01.2021</li>
+                                <li class="online-lessons__card-time">14:00-16:00</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="online-lessons__card-item">
+                        <img src="img/online-1.png" alt="" class="online-lessons__card-img">
+                        <div class="online-lessons__card-info">
+                            <h3 class="online-lessons__card-title">Название в одну строку</h3>
+                            <p class="online-lessons__card-type">Йога</p>
+                            <hr>
+                            <ul class="online-lessons__card-date-time">
+                                <li class="online-lessons__card-date">Вторник, 22.01.2021</li>
+                                <li class="online-lessons__card-time">14:00-16:00</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="online-lessons__card-item">
+                        <img src="img/online-2.png" alt="" class="online-lessons__card-img">
+                        <div class="online-lessons__card-info">
+                            <h3 class="online-lessons__card-title">Длинное название занятия в две строки</h3>
+                            <p class="online-lessons__card-type">Йога</p>
+                            <hr>
+                            <ul class="online-lessons__card-date-time">
+                                <li class="online-lessons__card-date">Вторник, 22.01.2021</li>
+                                <li class="online-lessons__card-time">14:00-16:00</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="online-lessons__card-item">
+                        <img src="img/online-3.png" alt="" class="online-lessons__card-img">
+                        <div class="online-lessons__card-info">
+                            <h3 class="online-lessons__card-title">Название в одну строку</h3>
+                            <p class="online-lessons__card-type">Йога</p>
+                            <hr>
+                            <ul class="online-lessons__card-date-time">
+                                <li class="online-lessons__card-date">Вторник, 22.01.2021</li>
+                                <li class="online-lessons__card-time">14:00-16:00</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <button class="online-lessons__more-cards btn"><span>Загрузить еще</span></button>
+                </div>
+
+                <div class="online-lessons__setings">
+                    <div class="online-lessons__sort setings__card">
+                        <h3 class="online-lessons__sort__title setings__title">Сортировка</h3>
+                        <div class="online-lessons__sort__radio">
+                            <div class="form_radio">
+                                <input id="radio-1" type="radio" name="radio">
+                                <label for="radio-1">Ближайшие</label>
+                            </div>
+                        
+                            <div class="form_radio">
+                                <input id="radio-2" type="radio" name="radio" checked>
+                                <label for="radio-2">Рейтинг</label>
+                            </div>
+                        
+                            <div class="form_radio">
+                                <input id="radio-3" type="radio" name="radio">
+                                <label for="radio-3">Новые</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="online-lessons__filter setings__card">
+                        <div class="filter-container">
+                            <h3 class="online-lessons__filter__title setings__title">Фильтры</h3>
+                            <p class="online-lessons__filter__category">Категория</p>
+                            <div class="online-lessons__filter__checkbox">
+                                <!-- <label for="check1"><input class="custom-checkbox" id="check1" type="checkbox"> Театральная мастерская</label>
+                                <label for="check2"><input class="custom-checkbox" id="check2" type="checkbox"> Фото и видео</label>
+                                <label for="check3"><input class="custom-checkbox" id="check3" type="checkbox"> Красота и здоровье</label> -->
+                                <div class="form_checkbox">
+                                    <input id="check-1" type="checkbox">
+                                    <label for="check-1">Театральная мастерская</label>
+                                </div>
+                            
+                                <div class="form_checkbox">
+                                    <input id="check-2" type="checkbox">
+                                    <label for="check-2">Фото и видео</label>
+                                </div>
+                            
+                                <div class="form_checkbox">
+                                    <input id="check-3" type="checkbox">
+                                    <label for="check-3">Красота и здоровье</label>
+                                </div>
+                            </div>
+                            <a href="#" class="online-lessons__filter__more">Показать все</a> 
+                        </div>  
+                        
+                        <button class="online-lessons__filter__drop btn"><span>Сбросить фильтры</span></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <nav class="footer-nav">
+                <div class="footer-nav__sitemap">
+                    <ul class="footer-nav__sitemap__item">
+                        <li><a href="#">О портале</a></li>
+                        <li><a href="#">Новости</a></li>
+                        <li><a href="#">Личный кабинет</a></li>
+                        <li><a href="#">Обратная связь</a></li>
+                    </ul>
+    
+                    <ul class="footer-nav__sitemap__item">
+                        <li><a href="#">Активности</a></li>
+                        <li><a href="#">Экскурсии</a></li>
+                        <li><a href="#">Долголетие-онлайн</a></li>
+                        <li><a href="#">Социальные услуги</a></li>
+                    </ul>
+                </div>
+
+                <form class="footer-nav__search form-search">
+                    <input type="text" placeholder="Поиск по порталу">
+                    <button type="submit"></button>
+                </form>
+            </nav>
+
+            <div class="footer-bottom">
+                <p class="footer-bottom__rights">© Активное долголетие — 2021</p>
+                <ul class="footer-bottom__apps">
+                    <li><a href="#"><img src="img/google_play.png" alt="App in Google Play"></a></li>
+                    <li><a href="#"><img src="img/app_store.png" alt="App in App Store"></a></li>
+                    <li><a href="#"><img src="img/app_gallery.png" alt="App in AppGallery"></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
